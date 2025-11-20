@@ -56,20 +56,23 @@ h3 {
 }
 
 /* common class */
-
+.container-fluid{
+  width:100%;
+  padding:0 15px;
+}
 .container {
-  max-width: 1920px;
+  max-width: 1130px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
-.container-padding{
-    padding-left:220px;
-    padding-right:220px;
-}
+
 .common-padding {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.text-padding{
+    padding:3px 5px;
 }
 .row {
   display: flex;
@@ -92,7 +95,7 @@ h3 {
     color:var(--grey);
 }
 .bg-gray{
-    background-color: var(--mediumGrey);
+    background-color: var(--lightGrey);
 }
 .text-center{
     text-align: center;
@@ -113,11 +116,12 @@ h3 {
 
 /* --------------navbar-------------- */
 .navbar{
-    padding:10px 0;
+    padding:15px 0;
     background-color: white;
     position:fixed;
     z-index:999;
     width:100%;
+    box-shadow:2px 0 6px var(--grey);
 }
 .navbar-brand a span{
     letter-spacing: 4px;
